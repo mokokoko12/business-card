@@ -1,0 +1,56 @@
+body{
+
+    margin:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.avatar{ 
+    
+    width:150px;
+    box-shadow: 5px 5px 10px #bcb6d7;
+    animation-name: colorchange;
+    animation-duration: 2ms;
+    animation-delay: -1;
+    animation-iteration-count: infinite;
+}
+
+.card{
+    background-color: #bbdaf6;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    color: #2b2839;
+    border-radius: 10px;
+    transition: width 3s;
+    
+    
+}
+.card:hover{
+    transform: scale(1.25)
+}
+.border2{
+
+    border: 2px dotted blue;
+    text-align: center;
+
+}
+
+.space{
+
+    padding:20px;
+
+}
+
+.shadow{
+ text-shadow: 2px 2px rgb(149, 128, 241);
+}
+
+@keyframes colorchange {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
