@@ -10,9 +10,9 @@ body{
     width:150px;
     box-shadow: 5px 5px 10px #bcb6d7;
     animation-name: colorchange;
-    animation-duration: 2ms;
+    animation-duration: 2s;
     animation-delay: -1;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 5;
 }
 
 .card{
@@ -49,8 +49,5 @@ body{
  text-shadow: 2px 2px rgb(149, 128, 241);
 }
 
-@keyframes colorchange {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
+
   
